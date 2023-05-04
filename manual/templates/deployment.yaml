@@ -14,8 +14,8 @@ spec:
       labels:
         app: nginx
     spec:
-      containers: 
+      containers:
       - name: nginx
-        image: "nginx: {{ .Values.deployment.imageVersion }}"
+        image: "nginx:{{ .Values.deployment.imageVersion }}"
         ports:
         - containerPort: 80
