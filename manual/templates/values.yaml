@@ -1,0 +1,5 @@
+deployment:
+ replicaCount: 2
+ imageVersion: apline
+Service:
+ port: 80
