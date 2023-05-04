@@ -8,5 +8,5 @@ spec:
     app: nginx
   ports:
     - protocol: TCP
-      port: {{.Values.service.port}}
+      port: {{ .Values.service.port }}
       targetPort: 80
